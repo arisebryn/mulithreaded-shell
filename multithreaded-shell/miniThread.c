@@ -5,16 +5,15 @@
 #include <unistd.h>
 #include <pthread.h>
 
-// Make a Buffer to store user input
 #define USER_BUFFER 1024 
-pid_t pid, wpid;
-char user_input[USER_BUFFER];
+pid_t pid, wpid; // Process and Wait ID variables
+char user_input[USER_BUFFER]; // Buffer for storing user input
 char* argv[200]; 
 int argc ;
-char* path= "/bin/"; 
+char* path= "/bin/"; // Path variable for bin folder
 char file_path[50];
-int status;
-int thread_count = 0; // Counter variables for each thread created
+int status; // Status variable for each process
+int thread_count = 0; // Counter variable for each thread created
 
 /* The threading function creates the processes after verifying user input */
 void *threading(void *arg) {
@@ -50,7 +49,7 @@ void *threading(void *arg) {
             string_token = strtok(NULL," ");
             argc++;
         }
-        argv[argc]=NULL;
+        argv[argc] = NULL;
 
         strcpy(file_path, path);  // Assign path to file_path
         strcat(file_path, argv[0]); // Conctanate command and file path
@@ -79,15 +78,15 @@ void *threading(void *arg) {
         else {
             printf("Command is not available in the bin\n"); // The command does not exist in the bin
         }
-        thread_count++;
+        thread_count++; // Update when a thread has completed the process
         printf("Thread %d complete\n", thread_count);
     }
 }
 
 /* The main method creates a thread to implement the a process upon each command input */
 int main() {
-    pthread_t tid;
-    pthread_attr_t attr;
+    pthread_t tid; // Thread ID
+    pthread_attr_t attr; // Default attribute
     
     pthread_attr_init(&attr); // Initialize the attribute argument
     pthread_create(&tid, &attr, *threading, NULL); // Create the first thread
