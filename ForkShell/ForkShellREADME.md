@@ -70,7 +70,8 @@ To exit the program press
   ctrl c 
 ```
 ## Demo
-https://github.com/arisebryn/shell-programs/issues/1#issue-1454494716
+![image](https://user-images.githubusercontent.com/78782929/202630461-540178cb-05c3-4667-8676-612bebfd0570.png)
+
 
 ## Screenshots
 
