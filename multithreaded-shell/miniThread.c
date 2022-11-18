@@ -58,7 +58,7 @@ void *threading(void *arg) {
         if (access(file_path, F_OK) == 0) {
             pid = fork();
             if (pid == 0) { // Child process
-                if (execv(file_path,argv) == -1) {
+                if (execv(file_path, argv) == -1) {
                     perror("Child proccess end");
                 }
                 exit(EXIT_FAILURE);
@@ -93,7 +93,7 @@ int main() {
     
     // If the thread has not been ended, create a new thread
 	if(pthread_join(tid, NULL) == 0) {
-		pthread_create(&tid,&attr,*threading, NULL);
+		pthread_create(&tid, &attr, *threading, NULL);
 	}
     pthread_join(tid,NULL); // End the thread
 }
