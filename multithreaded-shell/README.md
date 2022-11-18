@@ -37,4 +37,6 @@ gcc -pthread miniThread.c -o miniThread
 ```
 
 Follow the prompt output by the program in the terminal. Run commands using the multithreaded shell.
-![image](https://user-images.githubusercontent.com/62272564/202628732-80faeb98-8d51-4500-9a65-7edd25441adb.png)
+
+
+![image](https://user-images.githubusercontent.com/62272564/202629215-1e2dbc68-0c8f-4c67-babf-f7d60c9146a5.png)
