@@ -1,5 +1,5 @@
 ﻿# multithreaded-shell
-mulitthreaded-shell is a program built in the C programming language that implements an simple, interactive shell using multithreading.
+multithreaded-shell is a program built in the C programming language that implements an simple, interactive shell using multithreading.
 
 ## Installation
 
