@@ -75,6 +75,8 @@ To exit the program press
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/78782929/202630573-aa734cb8-cb24-4005-95e6-746c50ae7eae.png)
+![image](https://user-images.githubusercontent.com/78782929/202630674-19a6e23e-1b8a-4046-9d79-2c98a352ebd5.png)
+
 
 
 
