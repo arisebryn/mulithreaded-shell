@@ -70,10 +70,9 @@ To exit the program press
   ctrl c 
 ```
 ## Demo
-
+https://github.com/arisebryn/shell-programs/issues/1#issue-1454494716
 
 ## Screenshots
-![](C:/Users/Zachary/Downloads/AZminishell.png)
 
 
 
