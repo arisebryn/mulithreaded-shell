@@ -70,18 +70,18 @@ To exit the program press
   ctrl c 
 ```
 ## Demo
+
+## A sample deployment of the program is given below
 ![image](https://user-images.githubusercontent.com/78782929/202630461-540178cb-05c3-4667-8676-612bebfd0570.png)
 
 
 ## Screenshots
+
+##In this example, the ping command is executed
 ![image](https://user-images.githubusercontent.com/78782929/202630573-aa734cb8-cb24-4005-95e6-746c50ae7eae.png)
+
+##In this example, a new directory is created using the mkdir command
 ![image](https://user-images.githubusercontent.com/78782929/202630674-19a6e23e-1b8a-4046-9d79-2c98a352ebd5.png)
+
+##In this eample the location of the newly created directory is shown
 ![image](https://user-images.githubusercontent.com/78782929/202630741-b61d6094-cdbf-49f3-86b7-d5385b34947b.png)
-
-
-
-
-## Appendix
-
-Any additional information goes here
-
